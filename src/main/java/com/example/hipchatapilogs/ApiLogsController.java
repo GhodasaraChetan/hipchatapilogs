@@ -23,8 +23,8 @@ public class ApiLogsController {
 	public ResponseBean hello(@RequestBody InputBean roomBean) {
 
 		ResponseBean responseBean = ResponseBean.builder()
-				.color("green")
-				.message("Pahocha message kya?")
+				.color("blue")
+				.message("Pahoch gaya bhai pahoch gya..!!")
 				.notify("false")
 				.message_format("text").build();
 		return responseBean;
