@@ -5,5 +5,4 @@ public class FileBean {
 	private int size;
 	private String thumb_url;
 	private String url;
-
 }
