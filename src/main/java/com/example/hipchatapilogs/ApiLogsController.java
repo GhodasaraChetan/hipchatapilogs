@@ -24,7 +24,7 @@ public class ApiLogsController {
 
 		ResponseBean responseBean = ResponseBean.builder()
 				.color("blue")
-				.message("Pahoch gaya bhai pahoch gya..!!")
+				.message("Chala bhai chala..!!")
 				.notify("false")
 				.message_format("text").build();
 		return responseBean;
